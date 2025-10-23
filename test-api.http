@@ -1,0 +1,28 @@
+### Test the /me endpoint
+GET http://localhost:8000/me
+Accept: application/json
+
+###
+
+### Test the root endpoint
+GET http://localhost:8000/
+Accept: application/json
+
+###
+
+### Test the health check endpoint
+GET http://localhost:8000/health
+Accept: application/json
+
+###
+
+### Access interactive documentation
+GET http://localhost:8000/docs
+
+###
+
+### Access alternative documentation
+GET http://localhost:8000/redoc
+
+###
+
