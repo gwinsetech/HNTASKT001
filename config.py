@@ -6,8 +6,8 @@ class Settings(BaseSettings):
     """Application settings"""
     
     # User profile information
-    user_email: str = "your.email@example.com"
-    user_name: str = "Your Full Name"
+    user_email: str = "gwinsetech@gmail.com"
+    user_name: str = "Godwin Sunday Ekpoesu"
     user_stack: str = "Python/FastAPI"
     
     # External API configuration
